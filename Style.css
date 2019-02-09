@@ -37,10 +37,11 @@ body {
   /* The box named article should be a different color then the other boxes. Yet it is not. why.
   Addendum: I didnt put a # to make it call the id. */
   #article {
-    width: 100%;
-    /* margin: 5px; */
+    width: 90%;
+    margin: auto;
     color: #ebebeb;
     background: #777;
+    border: 5px dotted green;
   }
   #hs {
     color: #777;
