@@ -10,7 +10,6 @@ body {
     margin: auto;
     font-size: 18px;
     text-align: center;
-    /* padding-left: 250px; */
   } 
 /* This is jus the header. Simple stuff realy. */
   header {
@@ -41,17 +40,23 @@ body {
     margin: auto;
     color: #ebebeb;
     background: #777;
-    border: 5px dotted green;
+    border: 5px solid #777;
   }
   #hs {
     color: #777;
-    /* margin: 10px; */
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 50px;
     background: #ebebeb;
    
   }
-  #p {
+  #para {
     color: #777;
-    /* margin: 10px; */
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 50px;
     background: #ebebeb;
   }
 
