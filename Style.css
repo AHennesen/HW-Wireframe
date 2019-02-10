@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   text-align: center;
+  /* justify-content: center; */
+  /* vertical-align: middle; */
 }
 body {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -10,11 +12,13 @@ body {
     margin: auto;
     font-size: 18px;
     text-align: center;
+    vertical-align: center;
   } 
 /* This is jus the header. Simple stuff realy. */
   header {
     padding: 20px;
     width: 100%;
+    margin-top: 7px;
     background: #ebebeb;
     text-align: center;
   }
@@ -26,10 +30,11 @@ body {
     background: #ebebeb;
   }
   /* this is for the large box that is named section
-  #full is what we id section as */
+  #full is what i choose to id section as */
   #full{
-    width: 440px;
+    width: 495px;
     height: 300px;
+    padding-top: 20px;
     float: left;
     background: #ebebeb;
   }
@@ -38,14 +43,17 @@ body {
   #article {
     width: 90%;
     margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #ebebeb;
     background: #777;
-    border: 5px solid #777;
+    /* border: 5px solid #777; */
   }
   #hs {
     color: #777;
     width: 90%;
     margin: auto;
+    padding-top: .05px;
     margin-bottom: 10px;
     height: 50px;
     background: #ebebeb;
@@ -55,6 +63,7 @@ body {
     color: #777;
     width: 90%;
     margin: auto;
+    padding-top: 10px;
     margin-bottom: 10px;
     height: 50px;
     background: #ebebeb;
@@ -62,9 +71,9 @@ body {
 
   #aside {
     float: right;
-    width: 440px;
+    width: 445px;
     height: 300px;
-    border: 1px dotted blue;
+    padding-top: 45px;
     background: #ebebeb;
   }
 
